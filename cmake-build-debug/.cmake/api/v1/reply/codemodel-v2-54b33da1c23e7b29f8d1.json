@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "scrummies",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "scrummies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scrummies-Debug-df3c1367d22c77c80a38.json",
+					"name" : "scrummies",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rapor/OneDrive - Berufsbildungszentrum Schaffhausen/Dokumente/HF/5. Semester/Softwareentwicklung/IOT Projekt/microcontroller/cmake-build-debug",
+		"source" : "C:/Users/rapor/OneDrive - Berufsbildungszentrum Schaffhausen/Dokumente/HF/5. Semester/Softwareentwicklung/IOT Projekt/microcontroller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

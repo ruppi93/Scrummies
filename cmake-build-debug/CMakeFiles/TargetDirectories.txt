@@ -1,0 +1,3 @@
+C:/Users/rapor/OneDrive - Berufsbildungszentrum Schaffhausen/Dokumente/HF/5. Semester/Softwareentwicklung/IOT Projekt/microcontroller/cmake-build-debug/CMakeFiles/scrummies.dir
+C:/Users/rapor/OneDrive - Berufsbildungszentrum Schaffhausen/Dokumente/HF/5. Semester/Softwareentwicklung/IOT Projekt/microcontroller/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rapor/OneDrive - Berufsbildungszentrum Schaffhausen/Dokumente/HF/5. Semester/Softwareentwicklung/IOT Projekt/microcontroller/cmake-build-debug/CMakeFiles/rebuild_cache.dir
