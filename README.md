@@ -249,7 +249,7 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 - Änderung von "LeftActive" und "RightActive" auf "Kommen" und "Gehen"
 - Änderung des Bildschirms auf ein kleiens OLED Dispay
 
-
+---
 
 
  ## 🗓️ 20.12. – Tests und Fehlersuche
