@@ -143,7 +143,8 @@ Ein Schutzmechanismus verhindert negative Besucherzahlen.
 ### ✅ Endergebnis
 - Besucherzählung grundsätzlich funktionsfähig  
 - Sensorlogik implementiert  
-- Weitere Optimierung der Sensorik erforderlich  
+- Weitere Optimierung der Sensorik erforderlich
+- Auslesen der Sensordaten noch ungenau
 
 ---
 
@@ -168,13 +169,31 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 
 ---
 
+## 🗓️ 20.12. – Meilenstein 5: Sensorik auslesen
+
+### 🎯 Ziel des Tages
+- Auslesen der Sensordaten anhand 2 Tatser. 
+
+### Erklärung
+2 Tatser erkennen bei Tatsendurck nun die Besucher. Ob diese kommen oder gehen. Diesen schritt mussten wir so ändern, da die vorhanden Sensoren zu ungenau waren, und einen zu grossen Sensorebreich hatten 
+
+
+### ⚠ Probleme
+- Korrektes anschliessen der Tatser
+- Code zum entsprellen, dass die Tatser nur bei Tatsendruck sicken  
+ 
+
+### ✅ Endergebnis
+- Komme und Gehen wird bei Tatsendruck gesendet 
+   
+
 ## 📊 Aktueller Projektstand
 
 ### Arduino
 - WLAN-Verbindung stabil  
 - JSON-Übertragung funktioniert  
 - Sensorlogik implementiert  
-- Sensorerkennung noch nicht vollständig stabil  
+-Sensorerkennung auf Tatsendruck abgeändert und getestet.  
 
 ### API
 - POST- und GET-Endpunkte funktionsfähig  
@@ -195,7 +214,7 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 
 ## 🚧 Offene Punkte & Ausblick
 
-- Stabilisierung der IR-Sensorerkennung  
+-
 - Fehlerfreier CSV-Export  
 - Optimierung der Datenstruktur  
 - Erweiterung um statistische Auswertungen  
