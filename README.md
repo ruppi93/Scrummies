@@ -248,3 +248,17 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 - Änderung von IR Sensoren auf Taster 
 - Änderung von "LeftActive" und "RightActive" auf "Kommen" und "Gehen"
 - Änderung des Bildschirms auf ein kleiens OLED Dispay
+
+
+  ## 🗓️ 20.12. – Tests und Fehlersuche
+  
+
+| Testart        | Testinhalt            | Fehler / Risiken                               | Beschreibung                                                                 |
+|---------------|-----------------------|-----------------------------------------------|------------------------------------------------------------------------------|
+| Funktionstest | Datenanzeige          | Keine Anzeige auf dem Bildschirm              | Keine Anzeige, Daten werden jedoch korrekt versendet.                        |
+| Funktionstest | Datenanzeige          | CSV-Datei wird nicht erstellt                 | Der im Code angegebene Pfad existiert nicht.                                 |
+| Funktionstest | JSON-Inhalt           | Falscher Inhalt                               | API gibt HTTP-Status 400 bei fehlendem oder falschem JSON-Format zurück.     |
+| Funktionstest | Schalter              | Ein- bzw. Ausgang wird nicht erkannt          | Der Drücker wird zur Funktionsprüfung mittels LED überprüft.                |
+| Funktionstest | Stromversorgung       | Keine Datensammlung im Sperrbildschirm        | Im Sperrbildschirm verhindert der Laptop das korrekte Sammeln und Senden der Arduino-Daten. |
+| Funktionstest | Verbindung            | Keine Verbindung zwischen API und Arduino     | IP-Adresse und Netzwerkeinstellungen auf Korrektheit überprüfen.            |
+
