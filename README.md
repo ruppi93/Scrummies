@@ -176,7 +176,7 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 
 ### Erklärung
 2 Tatser erkennen bei Tatsendurck nun die Besucher. Ob diese kommen oder gehen. Diesen schritt mussten wir so ändern, da die vorhanden Sensoren zu ungenau waren, und einen zu grossen Sensorebreich hatten 
-
+Ändern des Codes und Datensendung mit Strings
 
 ### ⚠ Probleme
 - Korrektes anschliessen der Tatser
@@ -184,7 +184,28 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
  
 
 ### ✅ Endergebnis
-- Komme und Gehen wird bei Tatsendruck gesendet 
+- Komme und Gehen wird bei Tatsendruck gesendet
+
+
+## 🗓️ 20.12. – Meilenstein 6: Datenexport API (CSV)
+
+### 🎯 Ziel des Tages
+- Speicherung der empfangenen Sensordaten in einer CSV-Datei, mit Kommen und Gehen und Zeitstempel
+
+### Erklärung
+Die REST-API empfängt JSON-Daten vom Arduino, validiert diese und speichert sie zeilenweise in einer CSV-Datei.  
+Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherzahlen (z. B. in Excel).
+
+### ⚠ Probleme
+- Korrektes Schreiben der emofangen JSONS in die CSV gab Probeleme, da "/" falsch geschrieben war
+- Ändern des Const_Char auf String, um die Daten sauber auswerten zu können
+
+### ✅ Endergebnis
+- API verarbeitet eingehende Daten korrekt  
+- CSV-Export konzeptionell umgesetzt  
+- Funktionale Fertigstellung noch ausstehend  
+
+---
    
 
 ## 📊 Aktueller Projektstand
@@ -214,10 +235,15 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 
 ## 🚧 Offene Punkte & Ausblick
 
--
 - Fehlerfreier CSV-Export  
 - Optimierung der Datenstruktur  
 - Erweiterung um statistische Auswertungen  
 - Optionale Visualisierung der Besucherzahlen  
 
 ---
+
+## 🚧 Änderungen
+
+- Änderung von IR Sensoren auf Taster 
+- Änderung von "LeftActive" und "RightActive" auf "Kommen" und "Gehen"
+- Änderung des Bildschirms auf ein kleiens OLED Dispay
