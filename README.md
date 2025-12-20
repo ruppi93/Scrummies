@@ -54,6 +54,7 @@ Der Fokus des Projekts liegt auf:
 - Serverseitige Zeitstempel-Erzeugung
 - Speicherung der Daten im Speicher
 - Vorbereitung der Daten für CSV-Export
+- Senden der Daten an die CSV mit Zeitstempel und "Kommen" "Gehen"
 
 ---
 
