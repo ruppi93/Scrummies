@@ -250,7 +250,10 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 - Änderung des Bildschirms auf ein kleiens OLED Dispay
 
 
-  ## 🗓️ 20.12. – Tests und Fehlersuche
+
+
+ ## 🗓️ 20.12. – Tests und Fehlersuche
+
   
 
 | Testart        | Testinhalt            | Fehler / Risiken                               | Beschreibung                                                                 |
