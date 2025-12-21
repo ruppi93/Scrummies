@@ -215,12 +215,18 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 - WLAN-Verbindung stabil  
 - JSON-Übertragung funktioniert  
 - Sensorlogik implementiert  
--Sensorerkennung auf Tatsendruck abgeändert und getestet.  
+- Sensorerkennung auf Tatsendruck abgeändert und getestet
+- Display für die aktuelle Anzahl der Besucher direkt am Arduino
 
 ### API
 - POST- und GET-Endpunkte funktionsfähig  
 - Serverseitige Zeitstempel implementiert  
-- CSV-Export noch fehlerhaft  
+- CSV-Export funktioniert
+
+## Excle Datenauswertung   
+- CSV Datei kann genutzt werden, um die Daten in einer Excel sauber in einzelne Spalten aufzuteilen
+- Daraus wurde dann eine Teabelle erstellt, um einen Überblick über die kommenden und gehenden Besicher tagesgenau zu erstellen
+- zusätzlich ein Balkendiagram um zu übersichtlich auf einem blick zu sehen, an welchem Tag wie viele Bescher gekommen und gegangen sind.
 
 ---
 
@@ -235,15 +241,14 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 ---
 
 ## 🚧 Offene Punkte & Ausblick
-
-- Fehlerfreier CSV-Export  
-- Optimierung der Datenstruktur  
-- Erweiterung um statistische Auswertungen  
-- Optionale Visualisierung der Besucherzahlen  
+ 
+- Optimierung der Datenstruktur möglich (besserer Export auf einzelne Spalten aufgeteilt)
+- Erweiterung um statistische Auswertungen (Stunden oder Tageszeitabhängige Auswertung wäre noch möglich)
+ 
 
 ---
 
-## 🚧 Änderungen
+## 🚧 Änderungen im Projekt
 
 - Änderung von IR Sensoren auf Taster 
 - Änderung von "LeftActive" und "RightActive" auf "Kommen" und "Gehen"
