@@ -207,7 +207,6 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 - Funktionale Fertigstellung noch ausstehend  
 
 ---
-   
 
 ## 📊 Aktueller Projektstand
 
@@ -223,7 +222,7 @@ Diese CSV-Datei dient als Grundlage für eine spätere Auswertung der Besucherza
 - Serverseitige Zeitstempel implementiert  
 - CSV-Export funktioniert
 
-## Excle Datenauswertung   
+### Excle Datenauswertung   
 - CSV Datei kann genutzt werden, um die Daten in einer Excel sauber in einzelne Spalten aufzuteilen
 - Daraus wurde dann eine Teabelle erstellt, um einen Überblick über die kommenden und gehenden Besicher tagesgenau zu erstellen
 - zusätzlich ein Balkendiagram um zu übersichtlich auf einem blick zu sehen, an welchem Tag wie viele Bescher gekommen und gegangen sind.
