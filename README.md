@@ -99,7 +99,7 @@ Ein minimaler Test diente zur Überprüfung von:
 
 ---
 
-## 🗓️ 06.12. – Meilenstein 2 & 4: WLAN-Konfiguration & Testdaten senden
+## 🗓️ 06.12. – Meilenstein 2, 3 & 4: WLAN-Konfiguration & Testdaten senden
 
 ### 🎯 Ziel des Tages
 - WLAN-Verbindung im Schulnetz herstellen  
